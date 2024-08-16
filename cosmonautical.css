@@ -1,0 +1,76 @@
+    @import url('https://fonts.cdnfonts.com/css/fantasque-sans-mono'); 
+    :root {
+      --dark-purple: #11053B;
+      --light-purple #CD8BDA;
+      --light-pink: #CC2F71;
+    }
+    html {
+      font-family: 'Fantasque Sans Mono', sans-serif;
+      font-weight: 600;
+      color: #FFFFFF;
+    }
+    .checkboxListLabel,
+    .inputLabel,
+    .inputLabelUnfocused,
+    .textareaLabelUnfocused {
+      color: #FFFFFF;
+    }   
+    /* INPUTS */
+    .emby-input,
+    .emby-textarea,
+    .emby-select {
+      border-color: #CD8BDA;
+    }
+    .emby-input:focus,
+    .emby-textarea:focus,
+    .emby-select-withcolor {
+      border-color: #CC2F71 !important;
+    }
+    .emby-checkbox:checked + span + .checkboxOutline,
+    .itemProgressBarForeground {
+      background-color: #CD8BDA;
+    }
+    #loginPage {
+      background-image: url('https://auth.cosmonautical.cloud/static/dist/assets/images/custom/cosmos_background.webp');
+      background-size: cover;
+    }
+    .backdropImage {
+      display: none;
+    }
+    .backgroundContainer {
+      background-color: rgba(0, 0, 0, 0);
+      background-image: url('https://auth.cosmonautical.cloud/static/dist/assets/images/custom/cosmos_background.webp');
+      filter: blur(10px);
+      background-size: cover;
+      opacity: 0.5;
+    }
+    .mainDrawer, .drawer-open {
+      background-color: #11053B
+    }
+    .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred,
+    .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
+      background: none;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 0 0 3vh 3vh;
+    } 
+    /* TABS */
+    /* Adjust both "size-adjust" and "size" to modify size */
+    .headerTabs.sectionTabs {
+      text-size-adjust: 110%;
+      font-size: 110%;
+    }
+    .pageTitle {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+    .emby-tab-button {
+      padding: 1.75em 1.7em;
+    }
+    .sections { 
+      padding-top: 2vh;
+    }
+    /* PLAY STATUS */ 
+    .countIndicator,
+    .playedIndicator {
+      background: #11053B;
+    }  
