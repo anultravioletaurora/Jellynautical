@@ -17,30 +17,17 @@
 html {
   font-family: 'Fantasque Sans Mono', sans-serif !important;
   font-weight: 600;
-  color: var(--white);
+  color: var(--light-purple); /* Meets constrast metrics against dark-purple background */
 }
 
-#loginPage {
-  background-image: url('https://auth.cosmonautical.cloud/static/dist/assets/images/custom/cosmos_background.webp');
-  background-size: cover;
-}
 .backdropImage {
   display: none;
 }
-.backgroundContainer {
+.backgroundContainer,
+#loginPage {
   background-color: var(--dark-purple);
   background-size: cover;
   opacity: 0.3;
-}
-.mainDrawer, 
-.drawer-open,
-.MuiPaper-root {
-  background-color: var(--dark-purple);
-}
-
-.navMenuOption:hover {
-  color: var(--dark-purple) !important;
-  background-color: var(--neon-pink) !important;
 }
 
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred,

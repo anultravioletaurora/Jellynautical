@@ -11,3 +11,14 @@
     font-size: 1.5rem;
     font-weight: 900;
 }
+
+.mainDrawer, 
+.drawer-open,
+.MuiPaper-root {
+  background-color: var(--dark-purple);
+}
+
+.navMenuOption:hover {
+  color: var(--dark-purple) !important;
+  background-color: var(--neon-pink) !important;
+}
