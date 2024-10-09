@@ -25,9 +25,13 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      - uses: anthonyftwang/minify-action@v1.0.1
+      - name: auto minify the files
+        uses: nizarmah/auto-minify@v3
+        with:
+          output: "min"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: ${{ github.event.repository.name }}-CSS
+          path: "min"
