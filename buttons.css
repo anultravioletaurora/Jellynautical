@@ -1,0 +1,23 @@
+.btnForgotPassword {
+    display: none !important;
+  } 
+  
+  form.manualLoginForm > button.raised.button-submit {
+    background: var(--light-purple);
+  }
+  
+  button.raised {
+    background: #CC2F71;
+  } 
+  
+  .button-sso::before {
+    font-family: "Material Icons";
+    content: "\eba5";
+  }
+  
+  .emby-tab-button:hover,
+  .paper-icon-button-light:hover:not(:disabled) {
+    color: var(--neon-pink);
+    background-color: var(--dark-purple);
+    opacity: 90%;
+  }
