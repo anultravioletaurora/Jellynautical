@@ -1,3 +1,11 @@
 .progressring-spiner {
     border-color: var(--neon-pink) !important;
 }
+
+.MuiTypography-root {
+    font-family: 'Fantasque Sans Mono', sans-serif !important;
+}
+
+.MuiDrawer-paper {
+    background-image: none !important;
+}
