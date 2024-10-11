@@ -27,7 +27,6 @@ html {
 #loginPage {
   background-color: var(--dark-purple);
   background-size: cover;
-  opacity: 0.3;
 }
 
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred,
