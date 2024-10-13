@@ -58,3 +58,7 @@
 .appfooter {
   background-color: var(--darker-purple);
 }
+
+.iconOsdProgressInner {
+  background: var(--neon-pink);
+}

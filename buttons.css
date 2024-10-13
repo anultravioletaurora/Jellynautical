@@ -25,3 +25,7 @@ button.raised {
   background-color: var(--dark-purple);
   opacity: 90%;
 }
+
+.button-link {
+  color: var(--light-purple);
+}
