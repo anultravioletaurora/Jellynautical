@@ -13,3 +13,48 @@
   color: var(--neon-pink);
   background-color: var(--neon-pink);
 }
+
+.mdl-slider-background-lower { 
+  background-color: var(--neon-pink); 
+}
+
+.mdl-slider::-webkit-slider-thumb { 
+  -webkit-appearance: none; 
+  width: 1.08em; 
+  height: 1.08em; 
+  box-sizing: border-box; 
+  border-radius: 50%; 
+  background: var(--neon-pink); 
+  border: none; 
+  transition: 0.2s; 
+  pointer-events: none; 
+}
+
+.mdl-slider::-moz-range-thumb { 
+  -moz-appearance: none; 
+  width: 1.08em; 
+  height: 1.08em; 
+  box-sizing: border-box; 
+  border-radius: 50%; 
+  background: var(--neon-pink); 
+  background-image: none; 
+  border: none; 
+  transition: 0.2s; 
+}
+
+.mdl-slider::-ms-thumb { 
+  -webkit-appearance: none; 
+  width: 1.4em; 
+  height: 1.4em; 
+  box-sizing: border-box; 
+  border-radius: 50%; 
+  background: var(--neon-pink); 
+  border: none; 
+  transform: 
+  scale(0.771429); 
+  transition: 0.2s; 
+}
+
+.appfooter {
+  background-color: var(--darker-purple);
+}
