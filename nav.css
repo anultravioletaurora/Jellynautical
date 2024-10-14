@@ -18,7 +18,7 @@
   background-color: var(--dark-purple);
 }
 
-#myPreferencesMenuPage .listItem:hover
+#myPreferencesMenuPage .listItem:hover,
 .navMenuOption:hover,
 .navMenuOption.navMenuOption-selected,
 .MuiListItemButton-root:hover,
