@@ -6,7 +6,8 @@
     font-family: 'Fantasque Sans Mono', sans-serif !important;
 }
 
-.Mui-selected > .MuiListItemIcon-root > .MuiSvgIcon-root {
+.Mui-selected > .MuiListItemIcon-root > .MuiSvgIcon-root,
+.Mui-selected .MuiListItemText-root .MuiTypography-root {
     color: var(--dark-purple);
 }
 
