@@ -29,3 +29,7 @@ button.raised {
 .button-link {
   color: var(--light-purple);
 }
+
+.button-flat:hover {
+  color: var(--neon-pink);
+}
