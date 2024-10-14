@@ -1,14 +1,18 @@
 .paperList {
-    background: none;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 3vh;
-  }
-  .card:not([data-type="MusicAlbum"]) [class^="card"], 
-  .card:not([data-type="MusicAlbum"]) canvas {
-    border-radius: 1.5rem !important;
-  }
+  background: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 3vh;
+}
+.card:not([data-type="MusicAlbum"]) [class^="card"], 
+.card:not([data-type="MusicAlbum"]) canvas {
+  border-radius: 1.5rem !important;
+}
   
-  .cardContent-button,
-  .itemDetailImage {
-    border-radius: 1rem;
-  } 
+.cardContent-button,
+.itemDetailImage {
+  border-radius: 1rem;
+} 
+
+.backdropCard .visualCardBox {
+  background-color: var(--darker-purple);
+}
