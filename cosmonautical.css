@@ -5,6 +5,7 @@
 @import url('inputs.min.css');
 @import url('nav.min.css');
 @import url('player.min.css');
+@import url('elements.min.css');
 
 :root {
   --darker-purple: #070217;
