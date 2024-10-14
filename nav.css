@@ -26,3 +26,7 @@
   color: var(--dark-purple) !important;
   background-color: var(--neon-pink) !important;
 }
+
+.dialog {
+  background-color: var(--darker-purple);
+}
