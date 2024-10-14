@@ -2,6 +2,10 @@
     background-color: var(--light-purple) !important;
 }
 
+.listItemIcon.notification_important {
+    background-color: var(--neon-pink) !important;
+}
+
 .listItemIcon:not(.listItemIcon-transparent) {
     color: var(--dark-purple);
 }
