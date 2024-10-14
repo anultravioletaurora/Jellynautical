@@ -3,23 +3,28 @@
 .inputLabel,
 .inputLabelUnfocused,
 .textareaLabelUnfocused {
-  color: var(--white);
+  color: var(--light-purple);
 }
 
-.inputLabelFocused {
-  color: var(--light-purple);
+.inputLabelFocused,
+.selectLabelFocused {
+  color: var(--neon-pink);
 }
 
 .emby-input,
 .emby-textarea,
-.emby-select {
+.emby-select,
+.emby-select-withcolor {
   border-color: var(--light-purple);
 }
+
 .emby-input:focus,
 .emby-textarea:focus,
-.emby-select-withcolor {
-  border-color: var(--light-purple) !important;
+.emby-select-withcolor:focus {
+  border-color: var(--neon-pink) !important;
 }
+
+
 .emby-checkbox:checked + span + .checkboxOutline,
 .itemProgressBarForeground {
   background-color: var(--light-purple);
