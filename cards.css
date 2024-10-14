@@ -16,3 +16,11 @@
 .backdropCard .visualCardBox {
   background-color: var(--darker-purple);
 }
+
+.defaultCardBackground {
+  background-color: var(--light-purple);
+}
+
+.defaultCardBackground .cardImageIcon {
+  color: var(--dark-purple);
+}
