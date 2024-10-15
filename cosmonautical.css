@@ -67,3 +67,11 @@ html {
 .mdl-spinner__layer {
   border-color: var(--neon-pink) !important;
 }
+
+.noBackdropTransparency .detailPageSecondaryContainer {
+  background-color: var(--dark-purple);
+}
+
+.detailRibbon {
+  background-color: var(--darker-purple);
+}
