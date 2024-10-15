@@ -1,5 +1,5 @@
 .listItemIcon {
-    background-color: var(--light-purple) !important;
+    background-color: var(--dark-purple) !important;
 }
 
 .listItemIcon.notification_important {

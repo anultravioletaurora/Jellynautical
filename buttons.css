@@ -11,6 +11,7 @@ button.raised {
   color: var(--dark-purple);
 } 
 
+.fab, .raised,
 button.raised.btnRefresh,
 button.raised.button-alt {
   background: var(--light-purple);
