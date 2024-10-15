@@ -7,8 +7,15 @@ form.manualLoginForm > button.raised.button-submit {
 }
 
 button.raised {
-  background: #CC2F71;
+  background: var(--neon-pink);
+  color: var(--dark-purple);
 } 
+
+button.raised.btnRefresh,
+button.raised.button-alt {
+  background: var(--light-purple);
+  color: var(--dark-purple);
+}
 
 .button-sso::before {
   font-family: "Material Icons";

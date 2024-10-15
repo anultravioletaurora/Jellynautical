@@ -8,9 +8,10 @@
 
 .Mui-selected > .MuiListItemIcon-root > .MuiSvgIcon-root,
 .Mui-selected .MuiListItemText-root .MuiTypography-root,
-.MuiList-root .MuiListItemText-root .MuiTypography-root:hover {
+.MuiList-root .MuiListItemText-root .MuiListItemButton-root:hover .MuiSvgIcon-root,
+.MuiList-root .MuiListItemText-root .MuiListItemButton-root:hover .MuiListItemText-primary {
     color: var(--dark-purple);
-}
+  }
 
 .MuiListItemText-primary,
 .MuiSvgIcon-root {
