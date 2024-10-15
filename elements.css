@@ -9,3 +9,12 @@
 .listItemIcon:not(.listItemIcon-transparent) {
     color: var(--dark-purple);
 }
+
+.actionsheetMenuItemIcon {
+    border-radius: .25rem;
+    color: var(--dark-purple);
+}
+
+.actionsheetDivider {
+    background-color: var(--light-purple);
+}
