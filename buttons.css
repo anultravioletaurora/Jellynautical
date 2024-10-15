@@ -30,6 +30,7 @@ button.raised {
   color: var(--light-purple);
 }
 
+.ratingbutton-icon-withrating,
 .button-flat:hover {
   color: var(--neon-pink);
 }
