@@ -6,6 +6,7 @@
     background-color: var(--neon-pink) !important;
 }
 
+.listItem:hover .listItem-content,
 .listItemIcon:not(.listItemIcon-transparent) {
     color: var(--dark-purple);
 }
@@ -15,6 +16,7 @@
     color: var(--dark-purple);
 }
 
-.actionsheetDivider {
+.actionsheetDivider,
+.listItem:hover {
     background-color: var(--light-purple);
 }

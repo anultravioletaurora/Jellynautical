@@ -68,10 +68,10 @@ html {
   border-color: var(--neon-pink) !important;
 }
 
-.noBackdropTransparency .detailPageSecondaryContainer {
+.noBackdropTransparency, .detailPageSecondaryContainer.detailRibbon {
   background-color: var(--dark-purple);
 }
 
-.detailRibbon {
+.detailPageSecondaryContainer {
   background-color: var(--darker-purple);
 }
