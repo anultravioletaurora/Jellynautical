@@ -18,6 +18,7 @@
 }
 
 .defaultCardBackground {
+  color: white;
   background-color: var(--light-purple);
 }
 
