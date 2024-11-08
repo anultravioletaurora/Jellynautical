@@ -22,6 +22,7 @@
 .navMenuOption:hover,
 .navMenuOption.navMenuOption-selected,
 .MuiListItemButton-root:hover,
+.MuiListItemButton-root:hover .MuiTypography-root,
 .MuiListItemButton-root.Mui-selected {
   color: var(--dark-purple) !important;
   background-color: var(--neon-pink) !important;
