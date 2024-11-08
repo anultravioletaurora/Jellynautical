@@ -18,6 +18,28 @@
     color: var(--light-purple);
 }
 
+progress {
+    background: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 1rem;
+    border: 1px solid var(--dark-purple);
+  }
+progress::-webkit-progress-bar {
+    background: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 1rem;
+    border: 0px solid var(--dark-purple);
+}
+progress::-moz-progress-bar {
+    background-color: var(--light-purple);
+    border-radius: 1rem;
+}
+progress::-webkit-progress-value {
+    background-color: var(--light-purple);
+    border-radius: 1rem;
+}
+#divRunningTasks span {
+    color: rgba(255,255,255,0.75) !important;
+}
+
 .MuiDrawer-paper {
     background-image: none !important;
 }
