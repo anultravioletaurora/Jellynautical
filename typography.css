@@ -1,0 +1,9 @@
+html {
+    font-family: 'Fantasque Sans Mono', sans-serif !important;
+    font-weight: 600;
+    color: var(--light-purple); /* Meets constrast metrics against dark-purple background */
+}
+
+.MuiListSubheader-root {
+    font-family: 'Fantasque Sans Mono', sans-serif !important;
+}

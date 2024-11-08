@@ -6,6 +6,7 @@
 @import url('nav.min.css');
 @import url('player.min.css');
 @import url('elements.min.css');
+@import url('typography.min.css');
 
 :root {
   --darker-purple: #070217;
@@ -15,12 +16,6 @@
   --neon-pink: #CC2F71;
   --light-pink: #E58BB0;
   --white: #FFFFFF;
-}
-
-html {
-  font-family: 'Fantasque Sans Mono', sans-serif !important;
-  font-weight: 600;
-  color: var(--light-purple); /* Meets constrast metrics against dark-purple background */
 }
 
 .backdropImage {
