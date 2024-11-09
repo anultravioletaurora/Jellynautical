@@ -22,12 +22,16 @@
 .navMenuOption:hover,
 .navMenuOption.navMenuOption-selected,
 .MuiListItemButton-root:hover,
-.MuiListItemButton-root:hover .MuiTypography-root,
-.MuiListItemButton-root:hover .MuiSvgIcon-root,
 .MuiListItemButton-root.Mui-selected {
   color: var(--dark-purple) !important;
   background-color: var(--neon-pink) !important;
 }
+
+.MuiListItemButton-root:hover .MuiSvgIcon-root,
+.MuiListItemButton-root:hover .MuiTypography-root {
+  color: var(--dark-purple);
+}
+
 
 .dialog {
   background-color: var(--darker-purple);
