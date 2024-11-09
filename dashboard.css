@@ -19,12 +19,12 @@
 }
 
 progress {
-    background: rgba(0, 0, 0, 0.5) !important;
+    background: var(--darker-purple) !important;
     border-radius: 1rem;
     border: 1px solid var(--dark-purple);
   }
 progress::-webkit-progress-bar {
-    background: rgba(0, 0, 0, 0.5) !important;
+    background: var(--darker-purple) !important;
     border-radius: 1rem;
     border: 0px solid var(--dark-purple);
 }
@@ -37,7 +37,7 @@ progress::-webkit-progress-value {
     border-radius: 1rem;
 }
 #divRunningTasks span {
-    color: rgba(255,255,255,0.75) !important;
+    color: var(--light-purple) !important;
 }
 
 .MuiDrawer-paper {
