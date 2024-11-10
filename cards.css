@@ -18,8 +18,12 @@
 }
 
 .defaultCardBackground {
-  color: white;
+  color: var(--dark-purple);
   background-color: var(--light-purple);
+}
+
+.defaultCardBackground .sessionAppInfo img {
+  filter: invert(.5) sepia(1) saturate(20) hue-rotate(210deg) brightness(0.05);
 }
 
 .defaultCardBackground .cardImageIcon {
