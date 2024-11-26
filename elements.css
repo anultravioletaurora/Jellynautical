@@ -19,4 +19,5 @@
 .actionsheetDivider,
 .listItem:hover {
     background-color: var(--light-purple);
+    color: var(--dark-purple);
 }
