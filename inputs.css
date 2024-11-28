@@ -30,8 +30,7 @@
 .itemProgressBarForeground {
   background-color: var(--light-purple);
 } 
-.emby-checkbox:checked + span + .checkboxOutline,
-.itemProgressBarForeground {
+.emby-checkbox:checked + span + .checkboxOutline {
   background-color: var(--neon-pink) !important;
   border-color: var(--neon-pink) !important;
 }
