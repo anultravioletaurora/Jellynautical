@@ -1,12 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/fantasque-sans-mono'); 
-@import url('buttons.min.css');
-@import url('cards.min.css');
-@import url('dashboard.min.css');
-@import url('inputs.min.css');
-@import url('nav.min.css');
-@import url('player.min.css');
-@import url('elements.min.css');
-@import url('typography.min.css');
+@import url('https://raw.githubusercontent.com/anultravioletaurora/Jellynautical/refs/heads/main/min/buttons.min.css');
+@import url('https://raw.githubusercontent.com/anultravioletaurora/Jellynautical/refs/heads/main/min/cards.min.css');
+@import url('https://raw.githubusercontent.com/anultravioletaurora/Jellynautical/refs/heads/main/min/dashboard.min.css');
+@import url('https://raw.githubusercontent.com/anultravioletaurora/Jellynautical/refs/heads/main/min/inputs.min.css');
+@import url('https://raw.githubusercontent.com/anultravioletaurora/Jellynautical/refs/heads/main/min/nav.min.css');
+@import url('https://raw.githubusercontent.com/anultravioletaurora/Jellynautical/refs/heads/main/min/player.min.css');
+@import url('https://raw.githubusercontent.com/anultravioletaurora/Jellynautical/refs/heads/main/min/elements.min.css');
+@import url('https://raw.githubusercontent.com/anultravioletaurora/Jellynautical/refs/heads/main/min/typography.min.css');
 
 :root {
   --darker-purple: #070217;
