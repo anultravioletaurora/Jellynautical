@@ -1,4 +1,4 @@
-### Jellynautical
+### 🌌 Jellynautical
 
 A CSS theme for Jellyfin based on my *Cosmonautical* color palatte.
 
